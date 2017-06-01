@@ -109,7 +109,7 @@ class FloatType: public Type {
      */
     FloatType(BitSize size): Type(size, FLOAT) {}
 
-    virtual bool isInteger() const override { return true; }
+    virtual bool isFloat() const override { return true; }
     virtual bool isArithmetic() const override { return true; }
 
     virtual void print(QTextStream &out) const override;

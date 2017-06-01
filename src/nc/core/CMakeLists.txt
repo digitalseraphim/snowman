@@ -174,6 +174,8 @@ set(SOURCES
     likec/Expression.h
     likec/ExpressionStatement.cpp
     likec/ExpressionStatement.h
+    likec/FloatConstant.cpp
+    likec/FloatConstant.h
     likec/FunctionDeclaration.cpp
     likec/FunctionDeclaration.h
     likec/FunctionDefinition.cpp

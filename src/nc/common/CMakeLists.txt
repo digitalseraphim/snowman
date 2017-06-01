@@ -26,6 +26,7 @@ set(SOURCES
     SignalLogger.cpp
     SignalLogger.h
     SizedValue.h
+    SizedFloatValue.h
     StreamLogger.cpp
     StreamLogger.h
     StringToInt.cpp
